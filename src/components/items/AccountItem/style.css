@@ -1,0 +1,33 @@
+.account-item-card {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 5px;
+}
+
+.account-item-card .account-item__balance {
+  display: flex;
+  font-size: 1.31rem;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+.account-item-card .account-item__balance-currency {
+  margin-right: 4px;
+}
+
+.account-item-card .account-item__name {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 0.875rem;
+}
+
+.account-item-card .account-item__name-indicator {
+  width: 8px;
+  height: 8px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background: #409e77;
+}

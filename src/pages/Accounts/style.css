@@ -1,0 +1,16 @@
+.account-page {
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 115px 160px 12px;
+  background: #e6e6e8;
+}
+
+.account-page-header {
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.account-page-header .button {
+  margin-left: 1rem;
+}

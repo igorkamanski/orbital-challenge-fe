@@ -1,0 +1,9 @@
+:root {
+  --color--primary: #1c4d73;
+  --color--primary-dark: #13364f;
+  --color--red: #fc5252;
+  --color--red-dark: #942c2c;
+}
+
+.text-primary { color: var(--color--primary) }
+.text-white { color: white }

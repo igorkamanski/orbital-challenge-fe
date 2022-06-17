@@ -1,0 +1,28 @@
+.account-group {
+  margin-bottom: 20px;
+  padding-bottom: 1.25rem;
+  border: 1px solid #afaeae;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.account-group .account-group-name {
+  padding: 1.25rem 1rem;
+  background: white;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+}
+
+.account-group .account-group-content {
+  padding: 12px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  background: #e6e6e8;
+}
+
+.account-group .account-group-action {
+  display: flex;
+  justify-content: center;
+}
