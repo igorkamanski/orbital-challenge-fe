@@ -32,7 +32,7 @@ export const AccountGroup: React.FC<AccountGroupProps> = (
 
   return (
     <div className='account-group'>
-      <div className='account-group-name'>
+      <div className='account-group__name'>
         <span>{name} Accounts</span>
       </div>
       <div className='account-group-content'>

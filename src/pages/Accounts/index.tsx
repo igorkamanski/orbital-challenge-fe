@@ -42,22 +42,24 @@ const Accounts = () => {
   return (
     <div className='account-page'>
       <div className='account-page-header'>
-        <h1 className='page--title'>Accounts</h1>
-        <Button
-          variant='filled'
-          color='red'
-          rounded='full'
-          icon={<AddIcon />}
-        >
-          New Account
-        </Button>
-        <Button
-          variant='outlined'
-          rounded='full'
-          icon={<AddIcon />}
-        >
-          New Transaction
-        </Button>
+        <span className='page--title'>Accounts</span>
+        <div className='account-page-header-actions'>
+          <Button
+            variant='filled'
+            color='red'
+            rounded='full'
+            icon={<AddIcon />}
+          >
+            New Account
+          </Button>
+          <Button
+            variant='outlined'
+            rounded='full'
+            icon={<AddIcon />}
+          >
+            New Transaction
+          </Button>
+        </div>
       </div>
       {
         Object.keys(formattedAccounts).map(groupName => (

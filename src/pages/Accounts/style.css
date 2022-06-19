@@ -1,16 +1,55 @@
 .account-page {
   box-sizing: border-box;
   min-height: 100vh;
-  padding: 115px 160px 12px;
+  padding: 7.1875rem 10rem 0.75rem;
   background: #e6e6e8;
 }
 
 .account-page-header {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.2rem;
   display: flex;
   align-items: center;
 }
 
-.account-page-header .button {
+.account-page-header-actions {
+  display: flex;
+  align-items: center;
+}
+
+.account-page-header-actions .button {
   margin-left: 1rem;
+}
+
+@media (max-width: 1280px) {
+  .account-page {
+    padding: 7.1875rem 8rem 0.75rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .account-page {
+    padding: 7.1875rem 5.5rem 0.75rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .account-page {
+    padding: 7.1875rem 1.5rem 0.75rem;
+  }
+
+  .account-page-header {
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .account-page-header-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .account-page-header-actions .button:first-child {
+    margin-bottom: 4px;
+  }
 }

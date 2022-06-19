@@ -33,7 +33,7 @@ export const AccountItem: React.FC<AccountItemProps> = (
     <div className='account-item-card'>
       <div className='account-item__balance'>
         <i className='account-item__balance-currency'>{CurrencyIcons[value.currency]}</i>
-        {value.balance}
+        <span className='account-item__balance-value'>{value.balance}</span>
       </div>
       <div className='account-item__name flex items-center'>
         <div className='account-item__name-indicator' />

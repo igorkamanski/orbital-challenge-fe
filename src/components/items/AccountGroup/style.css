@@ -6,7 +6,7 @@
   overflow: hidden;
 }
 
-.account-group .account-group-name {
+.account-group__name {
   padding: 1.25rem 1rem;
   background: white;
   font-size: 0.875rem;
@@ -14,7 +14,7 @@
   line-height: 1.2rem;
 }
 
-.account-group .account-group-content {
+.account-group-content {
   padding: 12px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -22,7 +22,25 @@
   background: #e6e6e8;
 }
 
-.account-group .account-group-action {
+.account-group-action {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .account-group-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .account-group-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .account-group-content {
+    grid-template-columns: 1fr;
+  }
 }
